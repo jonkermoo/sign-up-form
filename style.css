@@ -11,11 +11,30 @@
 }
 
 .left-panel {
-    flex: 1;
+    flex: 40;
     background-color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+.left-panel::after {
+    content: '';
+    position: absolute;
+    right: -59px;
+    top: 50%;
+    transform: translateY(-50%); 
+
+    width: 0;
+    height: 0;
+    border-top: 50vh solid transparent;  
+    border-bottom: 50vh solid transparent;
+    border-left: 60px solid #ffffff; 
+
+    z-index: 2; 
 }
 
+
+
 .right-panel {
-    flex: 1;
+    flex: 60;
     background-color: #DCDCDC;
 }
