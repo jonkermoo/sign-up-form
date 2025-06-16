@@ -6,6 +6,7 @@
     font-weight: 400;
 }
 
+
 .container {
     display: flex;
     min-height: 100vh;
@@ -69,6 +70,28 @@
     flex: 0 0 36%;
 
     background-color: #F6F6F6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;       
+    column-gap: 4rem;
+    row-gap: 1.5rem;  
+    
+    width: min(80%, 32rem); 
+
+    height: auto;
+    margin: 0;
+}
+.info-grid input {
+  padding: 0.9rem 1.1rem;
+  border-radius: 6px;
+  border: 1px solid #d0d0d0; 
+  font-size: 1rem;
 }
 .login {
     flex: 0 0 32%;
