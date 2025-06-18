@@ -59,8 +59,8 @@
 }
 .subheading {
     flex: 0 0 32%;
-    padding-left: 15%;
-    padding-top: 15%;
+    padding-left: 8vw;
+    padding-top: 18vh;
 }
 .subheading p {
     color: #1E1E1E;
@@ -72,9 +72,7 @@
     background-color: #F6F6F6;
 
     display: flex;
-    justify-content: center;
     align-items: center;
-
 }
 .info-grid {
     display: grid;
@@ -82,17 +80,32 @@
     column-gap: 4rem;
     row-gap: 1.5rem;  
     
-    width: min(80%, 32rem); 
+    
+    width: 42vw;
 
-    height: auto;
-    margin: 0;
+    padding-left: 8vw;
 }
 .info-grid input {
-  padding: 0.9rem 1.1rem;
-  border-radius: 6px;
-  border: 1px solid #d0d0d0; 
-  font-size: 1rem;
+    padding: 0.9rem 1.1rem;
+    border-radius: 6px;
+    border: 1px solid #d0d0d0; 
+    font-size: 1rem;
 }
 .login {
     flex: 0 0 32%;
+}
+
+.login {
+    padding-left: 8vw;
+    padding-top: 4vh;
+}
+#submit-btn {
+    height: 6vh;
+    width: 11vw;
+    border: 0;
+    border-radius: 6px;
+    font-size: 2.4vh;
+}
+.login-container p {
+    padding-top: 1vh;
 }
