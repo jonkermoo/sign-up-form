@@ -23,18 +23,20 @@
                 <p>Join <em>ODIN</em> today.</p>
             </div>
             <div class="info-container">
-                <div class="info-grid">
-                    <input id="fname" type="text" placeholder="First Name">
-                    <input id="lname" type="text" placeholder="Last Name">
-                    <input id="phone" type="tel" placeholder="Phone">
-                    <input id="email" type="email" placeholder="Email">
-                    <input id="password "type="password" placeholder="Password">
-                    <input id="cpassword "type="password" placeholder="Confirm Password">
-                </div>
+                <form id="signup-form" class="info-grid">
+                    <input id="fname" type="text" placeholder="First Name" required>
+                    <input id="lname" type="text" placeholder="Last Name" required>
+                    <input id="phone" type="tel" placeholder="Phone" required>
+                    <input id="email" type="email" placeholder="Email" required>
+                    <input id="password "type="password" placeholder="Password" required>
+                    <input id="cpassword "type="password" placeholder="Confirm Password" required>
+                </form>
             </div>
             <div class="login">
                 <div class="login-container">
-                    <button id="submit-btn" type="submit">Create Account</button>
+                    <button id="submit-btn" 
+                            type="submit"
+                            form="signup-form">Create Account</button>
                     <p><em>Have an account? 
                         <a href="#" style="text-decoration: none; font-weight: bold; font-style: italic; color: inherit">
                         Log in
