@@ -91,6 +91,10 @@
     border: 1px solid #d0d0d0; 
     font-size: 1rem;
 }
+input::placeholder {
+    color: #DCDCDC;
+    opacity: 1;
+}
 .login {
     flex: 0 0 32%;
 }
@@ -105,7 +109,12 @@
     border: 0;
     border-radius: 6px;
     font-size: 2.4vh;
+
+    cursor: pointer;
+    background-color: #4C4848;
+    color: #ffffff;
 }
 .login-container p {
     padding-top: 1vh;
+    font-size: 2vh;
 }
